@@ -17,6 +17,7 @@ return require('packer').startup(function(use)
   use('nvim-treesitter/nvim-treesitter', {run = ':TSUpdate'})
   use('theprimeagen/harpoon')
   use('mbbill/undotree')
+  use('sbdchd/neoformat')
   use('tpope/vim-fugitive')
   use('tpope/vim-commentary')
   use {
@@ -35,4 +36,5 @@ return require('packer').startup(function(use)
 	  }
   }
   use({ 'rose-pine/neovim', as = 'rose-pine' })
+  use({ 'MrcJkb/haskell-tools.nvim', requires = { { 'nvim-lua/plenary.nvim' } } })
 end)

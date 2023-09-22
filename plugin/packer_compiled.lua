@@ -89,6 +89,11 @@ _G.packer_plugins = {
     path = "/home/cwilliamson/.local/share/nvim/site/pack/packer/start/harpoon",
     url = "https://github.com/theprimeagen/harpoon"
   },
+  ["haskell-tools.nvim"] = {
+    loaded = true,
+    path = "/home/cwilliamson/.local/share/nvim/site/pack/packer/start/haskell-tools.nvim",
+    url = "https://github.com/MrcJkb/haskell-tools.nvim"
+  },
   ["lsp-zero.nvim"] = {
     loaded = true,
     path = "/home/cwilliamson/.local/share/nvim/site/pack/packer/start/lsp-zero.nvim",
@@ -103,6 +108,11 @@ _G.packer_plugins = {
     loaded = true,
     path = "/home/cwilliamson/.local/share/nvim/site/pack/packer/start/mason.nvim",
     url = "https://github.com/williamboman/mason.nvim"
+  },
+  neoformat = {
+    loaded = true,
+    path = "/home/cwilliamson/.local/share/nvim/site/pack/packer/start/neoformat",
+    url = "https://github.com/sbdchd/neoformat"
   },
   ["nvim-cmp"] = {
     loaded = true,
