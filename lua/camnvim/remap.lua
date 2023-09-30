@@ -23,4 +23,4 @@ vim.keymap.set("n", "<C-u>", "<C-u>zz")
 -- Delete to the void (dont overwrite existing)
 vim.keymap.set({"n", "v"}, "<leader>d", [["_d]])
 
-
+vim.keymap.set("n", "<leader>fml", "<cmd>CellularAutomaton make_it_rain<CR>")
